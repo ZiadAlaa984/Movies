@@ -1,0 +1,48 @@
+#app {
+    height: 100%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* // const validationSchema = Yup.object().shape({
+//     name: Yup.string().min(3, 'min length is 3').max(15, 'max length is 15').required('Name is required'),
+//     email: Yup.string().email('Invalid email address').required('Email is required'),
+//     password: Yup.string().required('Password is required'),
+//     rePassword: Yup.string().oneOf([Yup.ref('password'), null], 'Passwords must match').required('Confirm rePassword is required'),
+// });
+// validationSchema, */
